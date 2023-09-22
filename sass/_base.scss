@@ -1,0 +1,160 @@
+//COLOR VARIABLES
+$color-primary: #08902e;
+$color-secondary: #c2a84b;
+$color-grey-500: #111813;
+$color-grey-400: #2e382e;
+$color-grey-300: #6a7b6a;
+$color-grey-200: #aeb7ae;
+$color-grey-100: #f1f3f2;
+
+//FONT VARIABLES
+$xl-heading: 5.6rem;
+$l-heading: 4rem;
+$heading: 2.8rem;
+$copy: 1.8rem;
+$sm-copy: 1.6rem;
+$link: 1.4rem;
+
+@font-face {
+  font-family: "heading";
+  src: url("../assets/fonts/recoleta_bold-webfont.woff2") format("woff2"),
+    url("../assets/fonts/recoleta_bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "bodybold";
+  src: url("../assets/fonts/circularstd-bold-webfont.woff2") format("woff2"),
+    url("../assets/fonts/circularstd-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "body";
+  src: url("../assets/fonts/circularstd-book-webfont.woff2") format("woff2"),
+    url("../assets/fonts/circularstd-book-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+//UTILITIES
+.section-margin {
+  &--all {
+    margin: 12rem 10rem;
+
+    @media only screen and (max-width: 1024px) {
+      margin: 10.5rem 8rem;
+    }
+
+    @media only screen and (max-width: 850px) {
+      margin: 6rem 4rem;
+    }
+
+    @media only screen and (max-width: 550px) {
+      margin: 6rem 2rem;
+    }
+  }
+
+  &--vertical {
+    margin: 12rem 0;
+
+    @media only screen and (max-width: 1024px) {
+      margin: 10.5rem 0;
+    }
+
+    @media only screen and (max-width: 850px) {
+      margin: 6rem 0;
+    }
+  }
+
+  &--horizontal {
+    margin: 0 10rem;
+
+    @media only screen and (max-width: 1024px) {
+      margin: 0 8rem;
+    }
+
+    @media only screen and (max-width: 850px) {
+      margin: 0 4rem;
+    }
+
+    @media only screen and (max-width: 550px) {
+      margin: 0 2rem;
+    }
+  }
+}
+
+.section-padding {
+  &--all {
+    padding: 12rem 10rem;
+
+    @media only screen and (max-width: 1024px) {
+      padding: 10.5rem 8rem;
+    }
+
+    @media only screen and (max-width: 850px) {
+      padding: 6rem 4rem;
+    }
+
+    @media only screen and (max-width: 550px) {
+      padding: 6rem 2rem;
+    }
+  }
+
+  &--vertical {
+    padding: 12rem 0;
+
+    @media only screen and (max-width: 1024px) {
+      padding: 10.5rem 0;
+    }
+
+    @media only screen and (max-width: 850px) {
+      padding: 6rem 0;
+    }
+  }
+
+  &--horizontal {
+    padding: 0 10rem;
+
+    @media only screen and (max-width: 1024px) {
+      padding: 0 8rem;
+    }
+
+    @media only screen and (max-width: 850px) {
+      padding: 0 4rem;
+    }
+
+    @media only screen and (max-width: 550px) {
+      padding: 0 2rem;
+    }
+  }
+}
+
+//SITE-WIDE STYLES
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem = 10px, 10px/16px = 62.5%
+
+  @media only screen and (max-width: 1200px) {
+    font-size: 50%;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "body";
+  font-size: $copy;
+  color: $color-grey-500;
+  max-width: 1440px;
+  margin: 0 auto;
+}
