@@ -489,31 +489,31 @@ h3 {
     border-radius: 2rem 0 0 2rem;
     width: 14rem; }
     .parish-image--1 {
-      background: url(../../assets/images/cca.jpg) no-repeat center;
+      background: url(../../assets/images/cca.jpg) no-repeat center top;
       background-size: cover; }
     .parish-image--2 {
-      background: url(../../assets/images/jscc.jpg) no-repeat center;
+      background: url(../../assets/images/jscc.jpg) no-repeat center top;
       background-size: cover; }
     .parish-image--3 {
-      background: url(../../assets/images/olhrcc.png) no-repeat center;
+      background: url(../../assets/images/olhrcc.png) no-repeat center top;
       background-size: cover; }
     .parish-image--4 {
-      background: url(../../assets/images/sppcc.jpg) no-repeat center;
+      background: url(../../assets/images/sppcc.jpg) no-repeat center top;
       background-size: cover; }
     .parish-image--5 {
-      background: url(../../assets/images/slcc.jpg) no-repeat center;
+      background: url(../../assets/images/slcc.jpg) no-repeat center top;
       background-size: cover; }
     .parish-image--6 {
-      background: url(../../assets/images/slcc.jpg) no-repeat center;
+      background: url(../../assets/images/slcc.jpg) no-repeat center top;
       background-size: cover; }
     .parish-image--7 {
-      background: url(../../assets/images/sfcc.jpg) no-repeat center;
+      background: url(../../assets/images/sfcc.jpg) no-repeat center top;
       background-size: cover; }
     .parish-image--8 {
-      background: url(../../assets/images/smcc.jpg) no-repeat center;
+      background: url(../../assets/images/smcc.jpg) no-repeat center top;
       background-size: cover; }
     .parish-image--9 {
-      background: url(../../assets/images/spcc.jpg) no-repeat center;
+      background: url(../../assets/images/spcc.jpg) no-repeat center top;
       background-size: cover; }
   .parish > div:last-child {
     display: flex;
