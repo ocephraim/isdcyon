@@ -212,7 +212,8 @@ body {
 
 .link-title {
   font-family: "heading";
-  margin-bottom: 2.8rem; }
+  margin-bottom: 2.8rem;
+  max-width: 19rem; }
 
 .link ul {
   list-style: none;
