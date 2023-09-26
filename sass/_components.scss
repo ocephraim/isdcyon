@@ -161,10 +161,11 @@
 }
 
 .link {
+  max-width: 19rem;
+
   &-title {
     font-family: "heading";
     margin-bottom: 2.8rem;
-    max-width: 19rem;
   }
 
   ul {

@@ -210,24 +210,22 @@ body {
     .footer-links > div {
       justify-content: flex-start; } }
 
-.link-title {
-  font-family: "heading";
-  margin-bottom: 2.8rem;
+.link {
   max-width: 19rem; }
-
-.link ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem; }
-
-.link-item {
-  color: #aeb7ae; }
-
-.link-social {
-  margin-top: 1.2rem;
-  display: flex;
-  gap: 1.2rem; }
+  .link-title {
+    font-family: "heading";
+    margin-bottom: 2.8rem; }
+  .link ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem; }
+  .link-item {
+    color: #aeb7ae; }
+  .link-social {
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 1.2rem; }
 
 .copyright {
   margin-top: 4.8rem;
